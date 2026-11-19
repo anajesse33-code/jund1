@@ -48,12 +48,12 @@ npm run preview   # npx wrangler pages dev out
 
 ### 1. Push this folder to GitHub
 
+This folder is already a Git repository with an initial commit. Create an **empty**
+repository on GitHub (no README, no .gitignore), then run:
+
 ```bash
-git init
-git add .
-git commit -m "HMV site"
-git branch -M main
 git remote add origin https://github.com/<your-user>/<your-repo>.git
+git branch -M main
 git push -u origin main
 ```
 
